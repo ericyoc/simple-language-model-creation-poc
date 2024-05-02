@@ -2,6 +2,9 @@
 
 This repository contains a Python implementation of a language model that generates text based on a given prompt. The model utilizes deep learning techniques, including LSTM (Long Short-Term Memory) and word embeddings, to learn patterns and generate coherent text.
 
+## Motivating Article
+Tyler A. Chang, Benjamin K. Bergen; Language Model Behavior: A Comprehensive Survey. Computational Linguistics 2024; 50 (1): 293–350. doi: https://doi.org/10.1162/coli_a_00492
+
 ## Features
 
 - Text generation based on a provided prompt
