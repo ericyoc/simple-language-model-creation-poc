@@ -17,7 +17,7 @@ Tyler A. Chang, Benjamin K. Bergen; Language Model Behavior: A Comprehensive Sur
 - Generates text of specified length based on the learned patterns
 
 ## Language Model Results
-https://github.com/ericyoc/simple-language-model-creation-demo/blob/main/lm_results.jpg
+![](https://github.com/ericyoc/simple-language-model-creation-demo/blob/main/lm_results.jpg)
 
 ## Language Model Architecture
 
