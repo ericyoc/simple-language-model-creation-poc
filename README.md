@@ -1,4 +1,4 @@
-# Language Model Creation Demostration
+# Language Model Creation Demonstration
 
 This repository contains a Python implementation of a language model that generates text based on a given prompt. The model utilizes deep learning techniques, including LSTM (Long Short-Term Memory) and word embeddings, to learn patterns and generate coherent text.
 
