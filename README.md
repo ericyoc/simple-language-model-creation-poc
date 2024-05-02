@@ -61,3 +61,5 @@ This implementation is inspired by various language modeling techniques and arch
 - [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
 Feel free to contribute, provide feedback, and suggest improvements to the language model implementation. Happy text generation!
+
+Disclaimer This repository is intended for educational and research purposes.
