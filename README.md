@@ -5,7 +5,7 @@ This repository contains a Python implementation of a language model that genera
 ## Motivating Article
 Tyler A. Chang, Benjamin K. Bergen; Language Model Behavior: A Comprehensive Survey. Computational Linguistics 2024; 50 (1): 293–350. doi: https://doi.org/10.1162/coli_a_00492
 
-## Features
+## Language Model Features
 
 - Text generation based on a provided prompt
 - Preprocessing of input text using tokenization and padding
@@ -16,7 +16,10 @@ Tyler A. Chang, Benjamin K. Bergen; Language Model Behavior: A Comprehensive Sur
 - Early stopping mechanism to prevent overfitting
 - Generates text of specified length based on the learned patterns
 
-## Model Architecture
+## Language Model Results
+https://github.com/ericyoc/simple-language-model-creation-demo/blob/main/lm_results.jpg
+
+## Language Model Architecture
 
 The language model is built using the Keras framework with the following architecture:
 
@@ -25,7 +28,7 @@ The language model is built using the Keras framework with the following archite
 3. Dropout layer: Applies dropout regularization to prevent overfitting.
 4. Dense layer: Outputs the probability distribution over the vocabulary for the next word prediction.
 
-## Metrics
+## Language Model Metrics
 
 The model's performance is evaluated using the following metrics:
 
@@ -37,13 +40,13 @@ The model's performance is evaluated using the following metrics:
 
 These metrics provide insights into the model's ability to generate coherent and meaningful text. The acceptable ranges serve as guidelines for assessing the model's performance and can be adjusted based on the specific requirements of the task.
 
-## Tokenization and Context Window
+## Language Model Tokenization and Context Window
 
 Tokenization is the process of converting input text into a sequence of tokens, where each token represents a word or a subword unit. The `Tokenizer` class from the Keras preprocessing module is used to tokenize the text data. The tokenizer builds a vocabulary of unique words and assigns an integer index to each word.
 
 The context window, determined by the `max_sequence_len` parameter, represents the number of previous words considered by the model when predicting the next word. A larger context window allows the model to capture longer-term dependencies and generate more coherent text. However, increasing the context window also increases the computational complexity and memory requirements of the model.
 
-## Dataset
+## Language Model Dataset
 
 The model is trained on a sample dataset consisting of sentences related to the phrase "The quick brown fox jumps over the lazy dog". The dataset includes variations and additional examples to provide the model with diverse patterns to learn from. You can modify the dataset by adding or removing sentences in the `texts` list in the code.
 
